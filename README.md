@@ -63,14 +63,14 @@ $$
 $$
 
 $$
-\begin{align*}
-& \left( -48 \sum_{k=1}^{3} \frac{e^{t \cdot \text{root}(z^3 + 12z^2 + 48z + 48, z, k)}}{3(\text{root}(z^3 + 12z^2 + 48z + 48, z, k)^2 + 24\text{root}(z^3 + 12z^2 + 48z + 48, z, k) + 48)} \right) , \\
-& \sum_{k=1}^{3} \frac{e^{t \cdot \text{root}(z^3 + 12z^2 + 48z + 48, z, k)} \cdot \text{root}(z^3 + 12z^2 + 48z + 48, z, k)^2}{3(\text{root}(z^3 + 12z^2 + 48z + 48, z, k)^2 + 8\text{root}(z^3 + 12z^2 + 48z + 48, z, k) + 16)} + \\
-& 12 \sum_{k=1}^{3} \frac{e^{\text{root}(z^3 + 12z^2 + 48z + 48, z, k) \cdot t} \cdot \text{root}(z^3 + 12z^2 + 48z + 48, z, k)}{3(8\text{root}(z^3 + 12z^2 + 48z + 48, z, k) + \text{root}(z^3 + 12z^2 + 48z + 48, z, k)^2 + 16)} \\
-& + \sum_{k=1}^{3} \frac{e^{\text{root}(z^3 + 12z^2 + 48z + 48, z, k) \cdot t} \cdot \text{root}(z^3 + 12z^2 + 48z + 48, z, k)}{3(8\text{root}(z^3 + 12z^2 + 48z + 48, z, k) + \text{root}(z^3 + 12z^2 + 48z + 48, z, k)^2 + 16)}
-\end{align*}
-$$
-
+\ Φ(t) =  
+\begin{bmatrix}
+3e^{-2t} - 3e^{-4t} + e^{-6t} & \frac{5e^{-2t}}{4} - 2e^{-4t} + \frac{3e^{-6t}}{4} & \frac{e^{-2t}}{8} - \frac{e^{-4t}}{4} + \frac{e^{-6t}}{8} \\
+12e^{-4t} - 6e^{-2t} - 6e^{-6t} & 8e^{-4t} - \frac{5e^{-2t}}{2} - \frac{9e^{-6t}}{2} & e^{-4t} - \frac{e^{-2t}}{4} - \frac{3e^{-6t}}{4} \\
+12e^{-2t} - 48e^{-4t} + 36e^{-6t} & 5e^{-2t} - 32e^{-4t} + 27e^{-6t} & \frac{e^{-2t}}{2} - 4e^{-4t} + \frac{9e^{-6t}}{2}
+\end{bmatrix}
+\
+$$   
 
 ---
 
