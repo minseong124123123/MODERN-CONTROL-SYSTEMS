@@ -6,7 +6,7 @@ homework3
 
 ### p3.1
 
-![이미지 설명](https://github.com/minseong124123123/modern-contreol-systems/blob/4e71741580cd9d20e29b6a3a9d7c81c9160669e8/P2.7.png)
+![이미지 설명](https://github.com/minseong124123123/modern-control-systems-3/blob/331ecd8eeced5b047ffa647d7b3e3ff9347dc8e1/P3.1.png)
 
 ---
 
