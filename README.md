@@ -52,6 +52,7 @@ disp('The inverse Laplace transform of matrix A_inv is:');
 disp(A_inv_ilaplace);
 
 ```
+
 역행렬 한 행렬:
 
 $$
@@ -62,6 +63,8 @@ $$
 \end{bmatrix}
 $$
 
+역라플라스
+
 $$
 \ Φ(t) =  
 \begin{bmatrix}
@@ -69,11 +72,40 @@ $$
 12e^{-4t} - 6e^{-2t} - 6e^{-6t} & 8e^{-4t} - \frac{5e^{-2t}}{2} - \frac{9e^{-6t}}{2} & e^{-4t} - \frac{e^{-2t}}{4} - \frac{3e^{-6t}}{4} \\
 12e^{-2t} - 48e^{-4t} + 36e^{-6t} & 5e^{-2t} - 32e^{-4t} + 27e^{-6t} & \frac{e^{-2t}}{2} - 4e^{-4t} + \frac{9e^{-6t}}{2}
 \end{bmatrix}
-\
 $$   
 
 ---
 
 ### p3.17
 
-![이미지 설명](https://github.com/minseong124123123/modern-contreol-systems/blob/1d4620c873e240fd89365f4a429e9479e6e81bab/P2.37.png)
+![이미지 설명](https://github.com/minseong124123123/modern-control-systems-3/blob/d260490f4e16e59d206724be8ebc7e97d764f754/p3.17.png)
+
+매트랩으로 진행하면
+```
+syms s;
+
+
+A = [(s - 3)*(s - 10)/(s^3 - 14*s^2 + 37*s + 20), (s - 11)/(s^3 - 14*s^2 + 37*s + 20), -(s - 3)/(s^3 - 14*s^2 + 37*s + 20);
+     4*(s - 10)/(s^3 - 14*s^2 + 37*s + 20), (s^2 - 11*s + 8)/(s^3 - 14*s^2 + 37*s + 20), -4/(s^3 - 14*s^2 + 37*s + 20);
+    -2*(s - 5)/(s^3 - 14*s^2 + 37*s + 20), (s - 3)/(s^3 - 14*s^2 + 37*s + 20), -(-s^2 + 4*s + 1)/(s^3 - 14*s^2 + 37*s + 20)];
+
+row_vector = [1, 0, 0];
+
+column_vector = [0; 0; 4];
+
+result_1 = row_vector * A;
+
+final_result = result_1 * column_vector;
+
+disp('결과:');
+disp(simplify(final_result));
+
+```
+
+## 최종 결과
+
+$$
+-\frac{4(s - 3)}{s^3 - 14s^2 + 37s + 20}
+$$
+
+
