@@ -33,6 +33,9 @@ $$
 
 (b)
 
+![이미지 설명](https://github.com/minseong124123123/modern-control-systems-3/blob/755b279d1094ab4e97b59f8092929391a083eaa9/P3.12(b).png)
+
+역행렬을 먼저하면
 
 $$
 \begin{bmatrix}
@@ -43,7 +46,7 @@ $$
 $$
 
 ```
-syms s; 
+syms s t;  
 
 A = [s, 1, 0; 
      0, s, -1; 
@@ -53,6 +56,12 @@ A_inv = inv(A);
 
 disp('The inverse of matrix A is:');
 disp(A_inv);
+
+A_inv_ilaplace = ilaplace(A_inv, s, t); 
+
+disp('The inverse Laplace transform of matrix A_inv is:');
+disp(A_inv_ilaplace);
+
 ```
 
 $$
