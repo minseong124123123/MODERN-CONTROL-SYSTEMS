@@ -12,7 +12,7 @@ homework3
 
 ### p3.3
 
-![이미지 설명](https://github.com/minseong124123123/modern-contreol-systems/blob/b576fd5db6ce8bdda62c8a4a8c088977db1e2721/P2.12.png)
+![이미지 설명](https://github.com/minseong124123123/modern-control-systems-3/blob/594a6742d7ae689c66514788d456d8abf0f69ba9/P3.3.png)
 
 ---
 
