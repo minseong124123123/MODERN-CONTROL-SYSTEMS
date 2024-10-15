@@ -27,8 +27,11 @@ $$
 
 ### p3.12
 
-![이미지 설명](https://github.com/minseong124123123/modern-contreol-systems/blob/405f79abac5993ce8b14e41386df7e4c4308d5c9/P2.26.png)
+(a)
 
+![이미지 설명](https://github.com/minseong124123123/modern-control-systems-3/blob/7cd98979128163db65ca1f616cd258e8d82d0b24/P3.12(a).png)
+
+(b)
 
 
 $$
