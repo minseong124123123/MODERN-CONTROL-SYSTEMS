@@ -18,8 +18,7 @@ homework3
 
 ### P3.5
 
-![이미지 설명](https://github.com/minseong124123123/modern-contreol-systems/blob/26fbfeb11112208a0adb2438666e7a5fc950e8b6/P2.15.png)
-
+![이미지 설명](https://github.com/minseong124123123/modern-control-systems-3/blob/b9d866c0032cbec9dd04dfed40658f6100db0781/P3.5.png)
 $$
 x(t) = \frac{2 \sin\left(\frac{t\sqrt{-b^2 + 4km}}{2m}\right) \exp\left(-\frac{bt}{2m}\right)}{\sqrt{-b^2 + 4km}}
 $$
